@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'minimo';
+    src: url('../fonts/Ubuntu-Regular.ttf');
+}
+
+.header{
+    max-width: 1100px;
+    text-transform: uppercase;
+}
+
+.header__logo{
+    display: inline-block;
+    font-family: 'minimo';
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-left: 5%;
+    margin-right: 40%;
+}
+
+.header__main-menu{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header__menu{
+    display: inline-block;
+    margin: 0 18%;
+}
+
+.header__link{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.header__img{
+    margin-left: 5%;
+    width: 105%;
+    height: 550px;
+}
+
